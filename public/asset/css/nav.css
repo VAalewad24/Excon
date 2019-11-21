@@ -1,0 +1,41 @@
+#nav {
+  overflow: hidden;
+  background-color: #333;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgb(13, 70, 109);
+  top : 0;
+}
+#nav h2 {
+    float : left;
+    color :rgb(255, 255, 255);
+    font-family : Georgia;
+    font-style: italic;
+    font-size :"15";
+}
+#nav li {
+  float: right;
+  font-family :Georgia;
+  font-style: italic;
+  font-synthesis: style;
+}
+#nav li a.active {
+    background-color : rgb(0, 52, 56);
+}
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  background-color: rgb(29, 3, 53);
+}

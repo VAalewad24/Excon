@@ -1,0 +1,97 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(4, 3, 31);
+    color: white;
+    text-align: center;
+ }
+ .Row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column
+{
+    padding: 5px;
+    text-align: center;
+    display: table-cell;
+    border:solid;
+    border-radius: 30px;
+    border-width: 0.5px;
+    border-color: rgb(148, 148, 150);
+    background-color: rgb(255, 255, 255);
+}
+.Column h2{
+    font-family:"Times Header";
+    font-size :250%;
+    }
+.Column p{
+    font-family: "Times New Roman";
+    color:rgb(4, 4, 124);
+    font-size: 20px;
+    }
+
+.Column #bt1 {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: Georgia;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.Column #bt1:before {
+    content: '';
+    background: linear-gradient(45deg, #d60505, #381abd, #0bca71, #0598bd, #00ffd5, #021fad, #5500b1, #910172, #1b007e);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.Column #bt1:active {
+    color: rgb(255, 245, 245)
+}
+
+.Column #bt1:active:after {
+    background: transparent;
+}
+
+ .Column #bt1:hover:before {
+    opacity: 1;
+}
+
+.Column #bt1:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

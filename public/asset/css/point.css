@@ -1,0 +1,13 @@
+.point
+
+.point h1{
+    text-align:right;
+    font-family: Impact;
+    font-size :250%;
+    }
+.point li{
+    text-align:right;
+    font-family: "Times New Roman";
+    color:black;
+    font-size: 125%;
+    }

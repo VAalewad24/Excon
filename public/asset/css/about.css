@@ -1,0 +1,19 @@
+#about {
+  background-image: url('../img/im.gif'), url('../img/bg4.jpg');
+  background-size: 600px;
+  background-position: left, left;
+  background-position: left center,left center;
+  background-repeat: no-repeat, repeat;
+  padding:70px;
+}
+#about h1{
+text-align:right;
+font-family: Impact;
+font-size :250%;
+}
+#about p{
+text-align:right;
+font-family: "Times New Roman";
+color:black;
+font-size: 125%;
+}

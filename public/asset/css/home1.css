@@ -1,0 +1,18 @@
+#home1 {
+    background-image: url('../../asset/img/im2.gif'), url('../img/bg2.jpeg');
+    background-size: 600px;
+    background-position: center, center;
+    background-position: right center, left top;
+    background-repeat: no-repeat, repeat;
+    padding:70px;
+  }
+#home1 h1{
+text-align:left;
+font-family: Impact;
+font-size :250%;
+}
+#home1 p{
+font-family: "Times New Roman";
+color:cornsilk;
+font-size: 100%;
+}

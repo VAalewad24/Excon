@@ -1,0 +1,16 @@
+{
+  "name": "server-app",
+  "version": "1.0.0",
+  "description": "Server app",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "heroku": "^7.35.0"
+  }
+}
